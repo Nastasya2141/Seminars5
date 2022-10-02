@@ -21,7 +21,7 @@ void PrintArray(int[] arr)
     Console.WriteLine();
 }
 
-int FindOddIndex(int[] arr)
+int FindSummOddIndex(int[] arr)
 {
     int sum = 0;
     for (int i = 0; i < arr.Length; i++)
@@ -42,7 +42,7 @@ int [] massiv = new int [4];
 FillArray(massiv); 
 PrintArray(massiv);
 
-Console.WriteLine("Сумма элементов, стоящих на нечётных позициях массива : "+FindOddIndex(massiv));
+Console.WriteLine("Сумма элементов, стоящих на нечётных позициях массива : "+FindSummOddIndex(massiv));
 
 
 /*Int FindOddIndex(int[] arr)
